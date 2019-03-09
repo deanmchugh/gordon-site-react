@@ -1,0 +1,12 @@
+.home-button{
+    font-size: 1.2rem;
+    justify-self: start;
+}
+.navbar-display{
+    padding: 20px;
+    display: grid;
+    grid-gap: 30px;
+    justify-items: center;
+    grid-template-columns: 1fr auto auto auto auto auto 1fr;
+    grid-template-rows: auto;
+}
