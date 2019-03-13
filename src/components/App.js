@@ -4,9 +4,12 @@ import './App.css';
 import Bio from './bio/Bio'
 import Contacts from './contacts/Contacts'
 import Default from './Default'
+import Drawings from './gallary/Drawings'
 import Footer from './footer/Footer'
-import {Paintings, Drawings, Illustrations, Studies} from './gallary/Gallary'
+import Illustrations from './gallary/Illustrations'
 import Navbar from './navbar/Navbar'
+import Paintings from './gallary/Paintings'
+import Studies from './gallary/Studies'
 
 class App extends Component {
   render() {

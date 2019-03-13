@@ -6,7 +6,7 @@ export const drawing = [
         media: 'Graphite on  Paper',
         size: '60x40cm',
         sold: false,
-        photo: './drawings/Commision   Media- Graphite on  paper   Size- 60x40cm.jpg'
+        photo: require('/home/deanmchugh/code/gordon-site-react/src/components/gallary/data/drawings/Commision   Media- Graphite on  paper   Size- 60x40cm.jpg')
     },
     {
         id: 2,
