@@ -12,7 +12,7 @@ export default class Studies extends Component {
           media={study.media}
           size={study.size}
           sold={study.sold}
-          image={study.photo}/>)
+          photo={study.photo}/>)
 
     return (
       <div>

@@ -11,7 +11,7 @@ export default class Illustrations extends Component {
           media={illustration.media}
           size={illustration.size}
           sold={illustration.sold}
-          image={illustration.photo}/>)
+          photo={illustration.photo}/>)
     return (
       <div>
         {illustrations}

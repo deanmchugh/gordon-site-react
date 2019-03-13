@@ -11,7 +11,7 @@ export default class Paintings extends Component {
           media={painting.media}
           size={painting.size}
           sold={painting.sold}
-          image={painting.photo}/>)
+          photo={painting.photo}/>)
     return (
       <div>
         {paintings}
