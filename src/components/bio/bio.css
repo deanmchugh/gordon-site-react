@@ -2,6 +2,7 @@
     border: 40px solid #2f2f2f;
     border-bottom: 40px solid #292929; 
     border-top: 40px solid #292929;
+    box-shadow: 4px 4px 5px inset;
     padding-right: 80px;
     grid-area: image;
 }
@@ -29,7 +30,6 @@
     grid-template-rows: auto;
     grid-template-areas: 
         'image name'
-        'image bio'
         'image bio'
         'image .';
 }
