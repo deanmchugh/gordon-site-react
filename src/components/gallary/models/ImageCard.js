@@ -2,13 +2,16 @@ import React, { Component } from 'react'
 import './imageCard.css'
 
 export default class ImageCard extends Component {
+
+  openImage(){
+    console.log('clicked')
+  }
+
   render() {
     return (
       <div className='card'>
         <div className='img-wrap'>
-          <figure>
-            <img style={{display: !this.props.photo && 'none'}} src={this.props.photo} alt='artwork'/>
-          </figure>
+          <button><img src={this.props.photo} onClick={this.openImage} alt='artwork'/></button>
           <div className='img-description'>
             <div className='img-text'>
               <h1 style={{display: !this.props.title && 'none'}}>{this.props.title}</h1>

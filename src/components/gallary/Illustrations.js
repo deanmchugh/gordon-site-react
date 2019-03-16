@@ -6,7 +6,7 @@ import './gallary.css'
 export default class Illustrations extends Component {
   render() {
     const illustrations = illustration.map(illustration =>
-        <ImageCard key={illustration.key}
+        <ImageCard key={illustration.id}
           type={illustration.type}
           title={illustration.title}
           media={illustration.media}

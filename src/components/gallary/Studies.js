@@ -7,7 +7,7 @@ export default class Studies extends Component {
   render() {
 
     const studies = study.map(study =>
-        <ImageCard key={study.key}
+        <ImageCard key={study.id}
           type={study.type}
           title={study.title}
           media={study.media}

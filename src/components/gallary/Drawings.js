@@ -7,7 +7,7 @@ export default class Drawings extends Component {
   render() {
 
     const drawings = drawing.map(drawing =>
-        <ImageCard key={drawing.key}
+        <ImageCard key={drawing.id}
           type={drawing.type}
           title={drawing.title}
           media={drawing.media}
