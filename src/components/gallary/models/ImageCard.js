@@ -9,9 +9,9 @@ export default class ImageCard extends Component {
 
   render() {
     return (
-      <div className='card'>
+      <div className='card' onClick={this.openImage}>
         <div className='img-wrap'>
-          <button><img src={this.props.photo} onClick={this.openImage} alt='artwork'/></button>
+          <img src={this.props.photo} alt='artwork'/>
           <div className='img-description'>
             <div className='img-text'>
               <h1 style={{display: !this.props.title && 'none'}}>{this.props.title}</h1>
