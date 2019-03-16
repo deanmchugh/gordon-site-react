@@ -10,7 +10,6 @@
   box-sizing: inherit;
 }
 html{
-  box-sizing: border-box;
   background-color: white;
 }
 button{

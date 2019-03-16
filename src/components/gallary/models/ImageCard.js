@@ -3,14 +3,12 @@ import './imageCard.css'
 
 export default class ImageCard extends Component {
   render() {
-
-    var background = "url('{this.props.photo}')"
-
     return (
       <div className='card'>
         <div className='img-wrap'>
-          <div style={{backgroundImage: background}}>
-          </div>          
+          <figure>
+            <img style={{display: !this.props.photo && 'none'}} src={this.props.photo} alt='artwork'/>
+          </figure>
           <div className='img-description'>
             <div className='img-text'>
               <h1 style={{display: !this.props.title && 'none'}}>{this.props.title}</h1>

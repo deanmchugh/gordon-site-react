@@ -1,16 +1,9 @@
 .card{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    box-sizing: border-box;
-    grid-column-start: auto;
-    grid-row-start: auto;
+    margin-bottom: 20px;
 }
 .card img{
     width: 100%;
-    background-size: cover;
-    background-position: center;    
+    display: block;
 }
 .img-wrap{
     position: relative;
@@ -36,4 +29,8 @@
 .img-wrap:hover .img-description{
     visibility: visible;
     opacity: 1;
+}
+.img-text h1{
+    text-transform: uppercase;
+    font-size: 1.2rem;
 }

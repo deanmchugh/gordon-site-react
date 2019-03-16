@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import ImageCard from './models/ImageCard'
 import {illustration} from './data/data'
+import './gallary.css'
 
 export default class Illustrations extends Component {
   render() {
@@ -13,7 +14,7 @@ export default class Illustrations extends Component {
           sold={illustration.sold}
           photo={illustration.photo}/>)
     return (
-      <div>
+      <div className='gallary-display'>
         {illustrations}
       </div>
     )

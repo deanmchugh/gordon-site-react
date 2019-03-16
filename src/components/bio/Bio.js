@@ -7,10 +7,10 @@ export default class Bio extends Component {
     return (
       <body className='bio-display'>
         <div className='bio-image-frame'>
-          <img className='bio-image' src={mainImage} alt='bio display'/>
+          <img src={mainImage} alt='bio display'/>
         </div>
-        <h1 className='name'>Lisa Gordon</h1>
-        <div className='bio'>
+        <div>
+          <h1>Lisa Gordon</h1>
           <p>I am an emerging artist. I am a painter and drawer working 
             in various mediums. Primarily my paintings are in oil or 
             gouache and my drawings are typically graphite and charcoal. 
