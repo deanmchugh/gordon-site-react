@@ -1,14 +1,17 @@
 .card{
     margin-bottom: 20px;
+    padding: 1px;
+    border: 1px solid black;
 }
 .thumbnail{
     width: 100%;
     display: block;
 }
 .image-display{
-    height: 40%;
-    width: 100%;
+    max-height: 95vh;
+    max-width: 100%;
     display: block;
+    margin: auto;
 }
 .img-wrap{
     position: relative;
