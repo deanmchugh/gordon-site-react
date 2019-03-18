@@ -1,7 +1,12 @@
 .card{
     margin-bottom: 20px;
 }
-.card img{
+.thumbnail{
+    width: 100%;
+    display: block;
+}
+.image-display{
+    height: 40%;
     width: 100%;
     display: block;
 }

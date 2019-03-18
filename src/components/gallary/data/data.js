@@ -144,15 +144,6 @@ export const drawing = [
         photo: require('./drawings/Title- Untitled   Media- Charcoal, coffee wash and gold leaf   Size- 50x40cm.jpg')
     },
     {
-        id: 17,
-        type: 'drawing',
-        title: 'Untitled',
-        media: 'Charoal and acrylic paint on paper',
-        size: '50x70cm',
-        sold: false,
-        photo: require('./drawings/Title- Untitled   Media- Charoal and acrylic paint on paper   Size- 50x70cm.jpg')
-    },
-    {
         id: 18,
         type: 'drawing',
         title: 'Untitled',
