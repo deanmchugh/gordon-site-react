@@ -1,17 +1,21 @@
 import React, { Component } from 'react'
+import Popup from 'reactjs-popup'
 import './imageCard.css'
 
 export default class ImageCard extends Component {
-
-  openImage(){
-    console.log('clicked')
-  }
-
   render() {
+
+    const ImagePopup = () => (
+      <Popup trigger={<button><img src={this.props.photo} alt='artwork'/></button>}
+        position='right center'>
+        <img src={this.props.photo} alt='artwork'/>
+      </Popup>
+    )
+
     return (
-      <div className='card' onClick={this.openImage}>
+      <div className='card'>
         <div className='img-wrap'>
-          <img src={this.props.photo} alt='artwork'/>
+          <ImagePopup />
           <div className='img-description'>
             <div className='img-text'>
               <h1 style={{display: !this.props.title && 'none'}}>{this.props.title}</h1>
