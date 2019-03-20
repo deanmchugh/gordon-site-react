@@ -16,27 +16,77 @@ button{
   border: none;
   background-color: white;
 }
+a{
+  text-decoration: none;
+  color: black;
+}
 button:hover{
   color: gray;
 }
 @media (min-width: 1025px){
-
-}
-@media (min-width: 768px) and (max-width: 1024px){
-
-}
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
-
-}
-@media (min-width: 481px) and (max-width: 767px){
-  .navbar-item{
-    flex-direction: column;
+  .navbar-toggle{
     display: none;
   }
-}
-@media (min-width: 320px) and (max-width: 480px){
+  .navbar{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
   .navbar-item{
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto
+  }
+  .bio-display{
+    margin: auto;
+    max-width: 1100px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 60% 40%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+  .navbar-toggle{
     display: none;
+  }
+  .navbar{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .navbar-item{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto
+  }
+  .bio-display{
+    max-width: 100%;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 60% 40%;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px){
+  .navbar{
+    display: flex;
+    padding: 20px 20px 10px 20px;
+}
+  .navbar-item,
+  .navbar{
+    flex-direction: column;
+  }
+  .navbar-home-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+  .navbar-item{
+    display: flex;
+    text-align: center;
+    justify-self: center;
+  }
+  .navbar-item-toggle{
+    display: none;
+  }
+  .navbar-toggle{
+    cursor: pointer;
+    justify-self: end;
   }
 }

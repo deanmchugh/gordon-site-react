@@ -1,16 +1,6 @@
-.navbar{
-    display: flex;
-    padding: 20px;
+.name{
+    font-size: 1.2rem;
 }
 .navbar button{
-    padding: 5px; 
-}
-.navbar-item{
-    margin: auto;
-}
-.navbar-menu-item{
-    align-self: flex-end;
-    display: initial;
-    position: absolute;
-    cursor: pointer;
+    padding-right: 10px; 
 }

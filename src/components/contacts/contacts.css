@@ -1,0 +1,7 @@
+.contact-display{
+    height: 50vh;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+}
