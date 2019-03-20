@@ -14,7 +14,15 @@ html{
 }
 button{
   border: none;
+  outline: 0;
   background-color: white;
+  
+}
+button:focus:active{
+  outline: none;
+}
+button::-moz-focus-inner {
+  border: 0;
 }
 a{
   text-decoration: none;
@@ -72,18 +80,20 @@ button:hover{
   .navbar-item,
   .navbar{
     flex-direction: column;
+    text-align: center;
+    justify-items: center;
   }
   .navbar-home-item{
     display: grid;
+    justify-items: left;
     grid-template-columns: 1fr 1fr;
 }
   .navbar-item{
-    display: flex;
-    text-align: center;
-    justify-self: center;
+    display: none;
   }
   .navbar-item-toggle{
-    display: none;
+    display: grid;
+    grid-template-rows: auto;  
   }
   .navbar-toggle{
     cursor: pointer;
