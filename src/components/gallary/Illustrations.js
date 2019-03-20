@@ -12,7 +12,8 @@ export default class Illustrations extends Component {
           media={illustration.media}
           size={illustration.size}
           sold={illustration.sold}
-          photo={illustration.photo}/>)
+          photo={illustration.photo}
+          thumbnail={illustration.thumbnail}/>)
     return (
       <div className='gallary-display'>
         {illustrations}

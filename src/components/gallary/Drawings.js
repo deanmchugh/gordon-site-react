@@ -13,7 +13,8 @@ export default class Drawings extends Component {
           media={drawing.media}
           size={drawing.size}
           sold={drawing.sold}
-          photo={drawing.photo}/>)
+          photo={drawing.photo}
+          thumbnail={drawing.thumbnail}/>)
 
     return (
       <div className='gallary-display'>

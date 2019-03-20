@@ -8,7 +8,7 @@ export default class ImageCard extends Component {
       <div className='card'>
         <Popup trigger={
            <div className='img-wrap'>
-           <img className='thumbnail' src={this.props.photo} alt='artwork'/>
+           <img className='thumbnail' src={this.props.thumbnail} alt='artwork'/>
            <div className='img-description'>
              <div className='img-text'>
                <h1 style={{display: !this.props.title && 'none'}}>{this.props.title}</h1>

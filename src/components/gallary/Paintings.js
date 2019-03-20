@@ -12,7 +12,8 @@ export default class Paintings extends Component {
           media={painting.media}
           size={painting.size}
           sold={painting.sold}
-          photo={painting.photo}/>)
+          photo={painting.photo}
+          thumbnail={painting.thumbnail}/>)
     return (
       <div className='gallary-display'>
         {paintings}

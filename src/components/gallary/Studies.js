@@ -13,7 +13,8 @@ export default class Studies extends Component {
           media={study.media}
           size={study.size}
           sold={study.sold}
-          photo={study.photo}/>)
+          photo={study.photo}
+          thumbnail={study.thumbnail}/>)
 
     return (
       <div className='gallary-display'>
